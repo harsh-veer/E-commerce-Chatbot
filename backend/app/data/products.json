@@ -1,0 +1,2122 @@
+[
+  {
+    "name": "Apex Laptop 1",
+    "brand": "ApexTech",
+    "category": "Laptops",
+    "price": 1249,
+    "discount": 6,
+    "description": "Apex Laptop 1 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "Intel Core i9-14900H",
+      "Graphics": "NVIDIA GeForce RTX 4070",
+      "Memory": "32GB DDR5",
+      "Storage": "1TB NVMe SSD",
+      "Display": "16-inch WQXGA 165Hz",
+      "Battery": "82Wh"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/laptops/apex-laptop-1-1.jpg",
+      "/products/laptops/apex-laptop-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Apex Laptop 2",
+    "brand": "ApexTech",
+    "category": "Laptops",
+    "price": 1399,
+    "discount": 7,
+    "description": "Apex Laptop 2 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "AMD Ryzen 9 7945HX",
+      "Graphics": "AMD Radeon RX 7800M",
+      "Memory": "24GB DDR5",
+      "Storage": "2TB NVMe SSD",
+      "Display": "15.6-inch FHD 240Hz",
+      "Battery": "68Wh"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/laptops/apex-laptop-2-1.jpg",
+      "/products/laptops/apex-laptop-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Neo Laptop 3",
+    "brand": "NeoCore",
+    "category": "Laptops",
+    "price": 1449,
+    "discount": 8,
+    "description": "Neo Laptop 3 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "AMD Ryzen 9 7945HX",
+      "Graphics": "AMD Radeon RX 7800M",
+      "Memory": "24GB DDR5",
+      "Storage": "2TB NVMe SSD",
+      "Display": "15.6-inch FHD 240Hz",
+      "Battery": "68Wh"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/laptops/neo-laptop-3-1.jpg",
+      "/products/laptops/neo-laptop-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Neo Laptop 4",
+    "brand": "NeoCore",
+    "category": "Laptops",
+    "price": 1599,
+    "discount": 9,
+    "description": "Neo Laptop 4 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "AMD Ryzen 7 7840HS",
+      "Graphics": "NVIDIA GeForce RTX 4060",
+      "Memory": "16GB DDR5",
+      "Storage": "512GB NVMe SSD",
+      "Display": "14-inch QHD 240Hz",
+      "Battery": "72Wh"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/laptops/neo-laptop-4-1.jpg",
+      "/products/laptops/neo-laptop-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Titan Laptop 5",
+    "brand": "TitanBook",
+    "category": "Laptops",
+    "price": 1649,
+    "discount": 10,
+    "description": "Titan Laptop 5 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "AMD Ryzen 7 7840HS",
+      "Graphics": "NVIDIA GeForce RTX 4060",
+      "Memory": "16GB DDR5",
+      "Storage": "512GB NVMe SSD",
+      "Display": "14-inch QHD 240Hz",
+      "Battery": "72Wh"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/laptops/titan-laptop-5-1.jpg",
+      "/products/laptops/titan-laptop-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Titan Laptop 6",
+    "brand": "TitanBook",
+    "category": "Laptops",
+    "price": 1799,
+    "discount": 11,
+    "description": "Titan Laptop 6 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "Intel Core i7-13620H",
+      "Graphics": "NVIDIA GeForce RTX 4070",
+      "Memory": "32GB DDR5",
+      "Storage": "1TB NVMe SSD",
+      "Display": "16-inch WQXGA 165Hz",
+      "Battery": "82Wh"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/laptops/titan-laptop-6-1.jpg",
+      "/products/laptops/titan-laptop-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Quantum Laptop 7",
+    "brand": "Quantum",
+    "category": "Laptops",
+    "price": 1849,
+    "discount": 12,
+    "description": "Quantum Laptop 7 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "Intel Core i7-13620H",
+      "Graphics": "NVIDIA GeForce RTX 4070",
+      "Memory": "32GB DDR5",
+      "Storage": "1TB NVMe SSD",
+      "Display": "16-inch WQXGA 165Hz",
+      "Battery": "82Wh"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/laptops/quantum-laptop-7-1.jpg",
+      "/products/laptops/quantum-laptop-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Quantum Laptop 8",
+    "brand": "Quantum",
+    "category": "Laptops",
+    "price": 1999,
+    "discount": 13,
+    "description": "Quantum Laptop 8 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "Intel Core i9-14900H",
+      "Graphics": "AMD Radeon RX 7800M",
+      "Memory": "24GB DDR5",
+      "Storage": "2TB NVMe SSD",
+      "Display": "15.6-inch FHD 240Hz",
+      "Battery": "68Wh"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/laptops/quantum-laptop-8-1.jpg",
+      "/products/laptops/quantum-laptop-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Stratus Laptop 9",
+    "brand": "Stratus",
+    "category": "Laptops",
+    "price": 2049,
+    "discount": 14,
+    "description": "Stratus Laptop 9 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "Intel Core i9-14900H",
+      "Graphics": "AMD Radeon RX 7800M",
+      "Memory": "24GB DDR5",
+      "Storage": "2TB NVMe SSD",
+      "Display": "15.6-inch FHD 240Hz",
+      "Battery": "68Wh"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/laptops/stratus-laptop-9-1.jpg",
+      "/products/laptops/stratus-laptop-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Stratus Laptop 10",
+    "brand": "Stratus",
+    "category": "Laptops",
+    "price": 2199,
+    "discount": 15,
+    "description": "Stratus Laptop 10 is a performance laptop built for professionals and gamers, featuring advanced cooling, a vivid display, and long battery life.",
+    "specifications": {
+      "Processor": "AMD Ryzen 9 7945HX",
+      "Graphics": "NVIDIA GeForce RTX 4060",
+      "Memory": "16GB DDR5",
+      "Storage": "512GB NVMe SSD",
+      "Display": "14-inch QHD 240Hz",
+      "Battery": "72Wh"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/laptops/stratus-laptop-10-1.jpg",
+      "/products/laptops/stratus-laptop-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Stellar Mobile 1",
+    "brand": "Stellar",
+    "category": "Mobiles",
+    "price": 629,
+    "discount": 6,
+    "description": "Stellar Mobile 1 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.7-inch OLED",
+      "Processor": "MediaTek Dimensity 9300",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Camera": "108MP + 12MP + 8MP",
+      "Battery": "5200mAh"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/mobiles/stellar-mobile-1-1.jpg",
+      "/products/mobiles/stellar-mobile-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Stellar Mobile 2",
+    "brand": "Stellar",
+    "category": "Mobiles",
+    "price": 709,
+    "discount": 7,
+    "description": "Stellar Mobile 2 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.5-inch FHD+ AMOLED",
+      "Processor": "Apple A17 Bionic",
+      "RAM": "16GB",
+      "Storage": "512GB",
+      "Camera": "50MP + 12MP + 10MP",
+      "Battery": "4800mAh"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/mobiles/stellar-mobile-2-1.jpg",
+      "/products/mobiles/stellar-mobile-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Pulse Mobile 3",
+    "brand": "Pulse",
+    "category": "Mobiles",
+    "price": 749,
+    "discount": 8,
+    "description": "Pulse Mobile 3 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.5-inch FHD+ AMOLED",
+      "Processor": "Apple A17 Bionic",
+      "RAM": "16GB",
+      "Storage": "512GB",
+      "Camera": "50MP + 12MP + 10MP",
+      "Battery": "4800mAh"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/mobiles/pulse-mobile-3-1.jpg",
+      "/products/mobiles/pulse-mobile-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Pulse Mobile 4",
+    "brand": "Pulse",
+    "category": "Mobiles",
+    "price": 829,
+    "discount": 9,
+    "description": "Pulse Mobile 4 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.8-inch AMOLED",
+      "Processor": "Qualcomm Snapdragon 8 Gen 3",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Camera": "200MP + 16MP + 12MP",
+      "Battery": "5000mAh"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/mobiles/pulse-mobile-4-1.jpg",
+      "/products/mobiles/pulse-mobile-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Orbit Mobile 5",
+    "brand": "Orbit",
+    "category": "Mobiles",
+    "price": 869,
+    "discount": 10,
+    "description": "Orbit Mobile 5 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.8-inch AMOLED",
+      "Processor": "Qualcomm Snapdragon 8 Gen 3",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Camera": "200MP + 16MP + 12MP",
+      "Battery": "5000mAh"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/mobiles/orbit-mobile-5-1.jpg",
+      "/products/mobiles/orbit-mobile-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Orbit Mobile 6",
+    "brand": "Orbit",
+    "category": "Mobiles",
+    "price": 949,
+    "discount": 11,
+    "description": "Orbit Mobile 6 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.7-inch OLED",
+      "Processor": "MediaTek Dimensity 9300",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Camera": "108MP + 12MP + 8MP",
+      "Battery": "5200mAh"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/mobiles/orbit-mobile-6-1.jpg",
+      "/products/mobiles/orbit-mobile-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Horizon Mobile 7",
+    "brand": "Horizon",
+    "category": "Mobiles",
+    "price": 989,
+    "discount": 12,
+    "description": "Horizon Mobile 7 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.7-inch OLED",
+      "Processor": "MediaTek Dimensity 9300",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Camera": "108MP + 12MP + 8MP",
+      "Battery": "5200mAh"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/mobiles/horizon-mobile-7-1.jpg",
+      "/products/mobiles/horizon-mobile-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Horizon Mobile 8",
+    "brand": "Horizon",
+    "category": "Mobiles",
+    "price": 1069,
+    "discount": 13,
+    "description": "Horizon Mobile 8 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.5-inch FHD+ AMOLED",
+      "Processor": "Apple A17 Bionic",
+      "RAM": "16GB",
+      "Storage": "512GB",
+      "Camera": "50MP + 12MP + 10MP",
+      "Battery": "4800mAh"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/mobiles/horizon-mobile-8-1.jpg",
+      "/products/mobiles/horizon-mobile-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Nova Mobile 9",
+    "brand": "Nova",
+    "category": "Mobiles",
+    "price": 1109,
+    "discount": 14,
+    "description": "Nova Mobile 9 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.5-inch FHD+ AMOLED",
+      "Processor": "Apple A17 Bionic",
+      "RAM": "16GB",
+      "Storage": "512GB",
+      "Camera": "50MP + 12MP + 10MP",
+      "Battery": "4800mAh"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/mobiles/nova-mobile-9-1.jpg",
+      "/products/mobiles/nova-mobile-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Nova Mobile 10",
+    "brand": "Nova",
+    "category": "Mobiles",
+    "price": 1189,
+    "discount": 15,
+    "description": "Nova Mobile 10 brings flagship-level performance, an immersive display, and a pro-grade camera setup in a slim chassis.",
+    "specifications": {
+      "Display": "6.8-inch AMOLED",
+      "Processor": "Qualcomm Snapdragon 8 Gen 3",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Camera": "200MP + 16MP + 12MP",
+      "Battery": "5000mAh"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/mobiles/nova-mobile-10-1.jpg",
+      "/products/mobiles/nova-mobile-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Velocity Shoe 1",
+    "brand": "Velocity",
+    "category": "Shoes",
+    "price": 89,
+    "discount": 6,
+    "description": "Velocity Shoe 1 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Synthetic knit",
+      "Midsole": "Cushioned EVA",
+      "Outsole": "Grip endurance",
+      "Weight": "260g",
+      "Fit": "Slim"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/shoes/velocity-shoe-1-1.jpg",
+      "/products/shoes/velocity-shoe-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Velocity Shoe 2",
+    "brand": "Velocity",
+    "category": "Shoes",
+    "price": 99,
+    "discount": 7,
+    "description": "Velocity Shoe 2 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Leather mesh blend",
+      "Midsole": "Responsive cushion",
+      "Outsole": "Dual-density tread",
+      "Weight": "225g",
+      "Fit": "Wide"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/shoes/velocity-shoe-2-1.jpg",
+      "/products/shoes/velocity-shoe-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Stride Shoe 3",
+    "brand": "Stride",
+    "category": "Shoes",
+    "price": 104,
+    "discount": 8,
+    "description": "Stride Shoe 3 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Leather mesh blend",
+      "Midsole": "Responsive cushion",
+      "Outsole": "Dual-density tread",
+      "Weight": "225g",
+      "Fit": "Wide"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/shoes/stride-shoe-3-1.jpg",
+      "/products/shoes/stride-shoe-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Stride Shoe 4",
+    "brand": "Stride",
+    "category": "Shoes",
+    "price": 114,
+    "discount": 9,
+    "description": "Stride Shoe 4 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Breathable mesh",
+      "Midsole": "Energy-return foam",
+      "Outsole": "Rubber traction",
+      "Weight": "240g",
+      "Fit": "Regular"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/shoes/stride-shoe-4-1.jpg",
+      "/products/shoes/stride-shoe-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Aero Shoe 5",
+    "brand": "AeroFit",
+    "category": "Shoes",
+    "price": 119,
+    "discount": 10,
+    "description": "Aero Shoe 5 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Breathable mesh",
+      "Midsole": "Energy-return foam",
+      "Outsole": "Rubber traction",
+      "Weight": "240g",
+      "Fit": "Regular"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/shoes/aero-shoe-5-1.jpg",
+      "/products/shoes/aero-shoe-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Aero Shoe 6",
+    "brand": "AeroFit",
+    "category": "Shoes",
+    "price": 129,
+    "discount": 11,
+    "description": "Aero Shoe 6 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Synthetic knit",
+      "Midsole": "Cushioned EVA",
+      "Outsole": "Grip endurance",
+      "Weight": "260g",
+      "Fit": "Slim"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/shoes/aero-shoe-6-1.jpg",
+      "/products/shoes/aero-shoe-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Trail Shoe 7",
+    "brand": "Trailblaze",
+    "category": "Shoes",
+    "price": 134,
+    "discount": 12,
+    "description": "Trail Shoe 7 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Synthetic knit",
+      "Midsole": "Cushioned EVA",
+      "Outsole": "Grip endurance",
+      "Weight": "260g",
+      "Fit": "Slim"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/shoes/trail-shoe-7-1.jpg",
+      "/products/shoes/trail-shoe-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Trail Shoe 8",
+    "brand": "Trailblaze",
+    "category": "Shoes",
+    "price": 144,
+    "discount": 13,
+    "description": "Trail Shoe 8 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Leather mesh blend",
+      "Midsole": "Responsive cushion",
+      "Outsole": "Dual-density tread",
+      "Weight": "225g",
+      "Fit": "Wide"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/shoes/trail-shoe-8-1.jpg",
+      "/products/shoes/trail-shoe-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Urban Shoe 9",
+    "brand": "UrbanRun",
+    "category": "Shoes",
+    "price": 149,
+    "discount": 14,
+    "description": "Urban Shoe 9 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Leather mesh blend",
+      "Midsole": "Responsive cushion",
+      "Outsole": "Dual-density tread",
+      "Weight": "225g",
+      "Fit": "Wide"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/shoes/urban-shoe-9-1.jpg",
+      "/products/shoes/urban-shoe-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Urban Shoe 10",
+    "brand": "UrbanRun",
+    "category": "Shoes",
+    "price": 159,
+    "discount": 15,
+    "description": "Urban Shoe 10 offers comfortable support, dynamic cushioning, and durable stability for everyday wear and active training.",
+    "specifications": {
+      "Upper": "Breathable mesh",
+      "Midsole": "Energy-return foam",
+      "Outsole": "Rubber traction",
+      "Weight": "240g",
+      "Fit": "Regular"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/shoes/urban-shoe-10-1.jpg",
+      "/products/shoes/urban-shoe-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Aura Headphone 1",
+    "brand": "AuraSound",
+    "category": "Headphones",
+    "price": 189,
+    "discount": 6,
+    "description": "Aura Headphone 1 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "On-ear",
+      "Noise Cancellation": "Passive",
+      "Battery Life": "35 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Weight": "280g"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/headphones/aura-headphone-1-1.jpg",
+      "/products/headphones/aura-headphone-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Aura Headphone 2",
+    "brand": "AuraSound",
+    "category": "Headphones",
+    "price": 229,
+    "discount": 7,
+    "description": "Aura Headphone 2 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "In-ear",
+      "Noise Cancellation": "Hybrid",
+      "Battery Life": "50 hours",
+      "Connectivity": "Bluetooth 5.4",
+      "Weight": "310g"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/headphones/aura-headphone-2-1.jpg",
+      "/products/headphones/aura-headphone-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Hush Headphone 3",
+    "brand": "HushPro",
+    "category": "Headphones",
+    "price": 224,
+    "discount": 8,
+    "description": "Hush Headphone 3 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "In-ear",
+      "Noise Cancellation": "Hybrid",
+      "Battery Life": "50 hours",
+      "Connectivity": "Bluetooth 5.4",
+      "Weight": "310g"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/headphones/hush-headphone-3-1.jpg",
+      "/products/headphones/hush-headphone-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Hush Headphone 4",
+    "brand": "HushPro",
+    "category": "Headphones",
+    "price": 264,
+    "discount": 9,
+    "description": "Hush Headphone 4 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "Over-ear",
+      "Noise Cancellation": "Active",
+      "Battery Life": "40 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Weight": "295g"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/headphones/hush-headphone-4-1.jpg",
+      "/products/headphones/hush-headphone-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Clear Headphone 5",
+    "brand": "ClearWave",
+    "category": "Headphones",
+    "price": 259,
+    "discount": 10,
+    "description": "Clear Headphone 5 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "Over-ear",
+      "Noise Cancellation": "Active",
+      "Battery Life": "40 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Weight": "295g"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/headphones/clear-headphone-5-1.jpg",
+      "/products/headphones/clear-headphone-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Clear Headphone 6",
+    "brand": "ClearWave",
+    "category": "Headphones",
+    "price": 299,
+    "discount": 11,
+    "description": "Clear Headphone 6 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "On-ear",
+      "Noise Cancellation": "Passive",
+      "Battery Life": "35 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Weight": "280g"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/headphones/clear-headphone-6-1.jpg",
+      "/products/headphones/clear-headphone-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Pulse Headphone 7",
+    "brand": "PulseAudio",
+    "category": "Headphones",
+    "price": 294,
+    "discount": 12,
+    "description": "Pulse Headphone 7 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "On-ear",
+      "Noise Cancellation": "Passive",
+      "Battery Life": "35 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Weight": "280g"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/headphones/pulse-headphone-7-1.jpg",
+      "/products/headphones/pulse-headphone-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Pulse Headphone 8",
+    "brand": "PulseAudio",
+    "category": "Headphones",
+    "price": 334,
+    "discount": 13,
+    "description": "Pulse Headphone 8 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "In-ear",
+      "Noise Cancellation": "Hybrid",
+      "Battery Life": "50 hours",
+      "Connectivity": "Bluetooth 5.4",
+      "Weight": "310g"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/headphones/pulse-headphone-8-1.jpg",
+      "/products/headphones/pulse-headphone-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Echo Headphone 9",
+    "brand": "EchoBound",
+    "category": "Headphones",
+    "price": 329,
+    "discount": 14,
+    "description": "Echo Headphone 9 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "In-ear",
+      "Noise Cancellation": "Hybrid",
+      "Battery Life": "50 hours",
+      "Connectivity": "Bluetooth 5.4",
+      "Weight": "310g"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/headphones/echo-headphone-9-1.jpg",
+      "/products/headphones/echo-headphone-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Echo Headphone 10",
+    "brand": "EchoBound",
+    "category": "Headphones",
+    "price": 369,
+    "discount": 15,
+    "description": "Echo Headphone 10 delivers rich audio clarity, noise isolation, and extended wireless playback for immersive listening.",
+    "specifications": {
+      "Type": "Over-ear",
+      "Noise Cancellation": "Active",
+      "Battery Life": "40 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Weight": "295g"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/headphones/echo-headphone-10-1.jpg",
+      "/products/headphones/echo-headphone-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Vision Television 1",
+    "brand": "VisionMax",
+    "category": "Televisions",
+    "price": 589,
+    "discount": 6,
+    "description": "Vision Television 1 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "65-inch",
+      "Resolution": "8K UHD",
+      "HDR": "Dolby Vision",
+      "Smart TV": "Yes",
+      "Refresh Rate": "240Hz"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/televisions/vision-television-1-1.jpg",
+      "/products/televisions/vision-television-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Vision Television 2",
+    "brand": "VisionMax",
+    "category": "Televisions",
+    "price": 679,
+    "discount": 7,
+    "description": "Vision Television 2 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "75-inch",
+      "Resolution": "4K UHD",
+      "HDR": "HDR10",
+      "Smart TV": "Yes",
+      "Refresh Rate": "120Hz"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/televisions/vision-television-2-1.jpg",
+      "/products/televisions/vision-television-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Pure Television 3",
+    "brand": "PureView",
+    "category": "Televisions",
+    "price": 709,
+    "discount": 8,
+    "description": "Pure Television 3 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "75-inch",
+      "Resolution": "4K UHD",
+      "HDR": "HDR10",
+      "Smart TV": "Yes",
+      "Refresh Rate": "120Hz"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/televisions/pure-television-3-1.jpg",
+      "/products/televisions/pure-television-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Pure Television 4",
+    "brand": "PureView",
+    "category": "Televisions",
+    "price": 799,
+    "discount": 9,
+    "description": "Pure Television 4 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "55-inch",
+      "Resolution": "8K UHD",
+      "HDR": "HDR10+",
+      "Smart TV": "Yes",
+      "Refresh Rate": "240Hz"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/televisions/pure-television-4-1.jpg",
+      "/products/televisions/pure-television-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Luma Television 5",
+    "brand": "LumaTech",
+    "category": "Televisions",
+    "price": 829,
+    "discount": 10,
+    "description": "Luma Television 5 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "55-inch",
+      "Resolution": "8K UHD",
+      "HDR": "HDR10+",
+      "Smart TV": "Yes",
+      "Refresh Rate": "240Hz"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/televisions/luma-television-5-1.jpg",
+      "/products/televisions/luma-television-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Luma Television 6",
+    "brand": "LumaTech",
+    "category": "Televisions",
+    "price": 919,
+    "discount": 11,
+    "description": "Luma Television 6 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "65-inch",
+      "Resolution": "4K UHD",
+      "HDR": "Dolby Vision",
+      "Smart TV": "Yes",
+      "Refresh Rate": "120Hz"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/televisions/luma-television-6-1.jpg",
+      "/products/televisions/luma-television-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Cinema Television 7",
+    "brand": "CinemaX",
+    "category": "Televisions",
+    "price": 949,
+    "discount": 12,
+    "description": "Cinema Television 7 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "65-inch",
+      "Resolution": "4K UHD",
+      "HDR": "Dolby Vision",
+      "Smart TV": "Yes",
+      "Refresh Rate": "120Hz"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/televisions/cinema-television-7-1.jpg",
+      "/products/televisions/cinema-television-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Cinema Television 8",
+    "brand": "CinemaX",
+    "category": "Televisions",
+    "price": 1039,
+    "discount": 13,
+    "description": "Cinema Television 8 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "75-inch",
+      "Resolution": "8K UHD",
+      "HDR": "HDR10",
+      "Smart TV": "Yes",
+      "Refresh Rate": "240Hz"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/televisions/cinema-television-8-1.jpg",
+      "/products/televisions/cinema-television-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Spectrum Television 9",
+    "brand": "Spectrum",
+    "category": "Televisions",
+    "price": 1069,
+    "discount": 14,
+    "description": "Spectrum Television 9 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "75-inch",
+      "Resolution": "8K UHD",
+      "HDR": "HDR10",
+      "Smart TV": "Yes",
+      "Refresh Rate": "240Hz"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/televisions/spectrum-television-9-1.jpg",
+      "/products/televisions/spectrum-television-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Spectrum Television 10",
+    "brand": "Spectrum",
+    "category": "Televisions",
+    "price": 1159,
+    "discount": 15,
+    "description": "Spectrum Television 10 delivers bright cinematic imagery, smart connectivity, and a sleek bezel for modern living rooms.",
+    "specifications": {
+      "Display Size": "55-inch",
+      "Resolution": "4K UHD",
+      "HDR": "HDR10+",
+      "Smart TV": "Yes",
+      "Refresh Rate": "120Hz"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/televisions/spectrum-television-10-1.jpg",
+      "/products/televisions/spectrum-television-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Pulse Smart Watche 1",
+    "brand": "PulseSync",
+    "category": "Smart Watches",
+    "price": 204,
+    "discount": 6,
+    "description": "Pulse Smart Watche 1 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.78-inch OLED",
+      "Sensors": "ECG, GPS, Sleep",
+      "Battery Life": "30 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Water Resistance": "5ATM"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/smart-watches/pulse-smart-watche-1-1.jpg",
+      "/products/smart-watches/pulse-smart-watche-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Pulse Smart Watche 2",
+    "brand": "PulseSync",
+    "category": "Smart Watches",
+    "price": 229,
+    "discount": 7,
+    "description": "Pulse Smart Watche 2 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.85-inch AMOLED",
+      "Sensors": "Heart rate, GPS, Compass",
+      "Battery Life": "14 days",
+      "Connectivity": "LTE optional",
+      "Water Resistance": "IP68"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/smart-watches/pulse-smart-watche-2-1.jpg",
+      "/products/smart-watches/pulse-smart-watche-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Chrono Smart Watche 3",
+    "brand": "ChronoEdge",
+    "category": "Smart Watches",
+    "price": 239,
+    "discount": 8,
+    "description": "Chrono Smart Watche 3 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.85-inch AMOLED",
+      "Sensors": "Heart rate, GPS, Compass",
+      "Battery Life": "14 days",
+      "Connectivity": "LTE optional",
+      "Water Resistance": "IP68"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/smart-watches/chrono-smart-watche-3-1.jpg",
+      "/products/smart-watches/chrono-smart-watche-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Chrono Smart Watche 4",
+    "brand": "ChronoEdge",
+    "category": "Smart Watches",
+    "price": 264,
+    "discount": 9,
+    "description": "Chrono Smart Watche 4 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.9-inch AMOLED",
+      "Sensors": "Heart rate, SpO2, GPS",
+      "Battery Life": "18 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Water Resistance": "50m"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/smart-watches/chrono-smart-watche-4-1.jpg",
+      "/products/smart-watches/chrono-smart-watche-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Fit Smart Watche 5",
+    "brand": "FitOrbit",
+    "category": "Smart Watches",
+    "price": 274,
+    "discount": 10,
+    "description": "Fit Smart Watche 5 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.9-inch AMOLED",
+      "Sensors": "Heart rate, SpO2, GPS",
+      "Battery Life": "18 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Water Resistance": "50m"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/smart-watches/fit-smart-watche-5-1.jpg",
+      "/products/smart-watches/fit-smart-watche-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Fit Smart Watche 6",
+    "brand": "FitOrbit",
+    "category": "Smart Watches",
+    "price": 299,
+    "discount": 11,
+    "description": "Fit Smart Watche 6 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.78-inch OLED",
+      "Sensors": "ECG, GPS, Sleep",
+      "Battery Life": "30 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Water Resistance": "5ATM"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/smart-watches/fit-smart-watche-6-1.jpg",
+      "/products/smart-watches/fit-smart-watche-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Tempo Smart Watche 7",
+    "brand": "TempoGear",
+    "category": "Smart Watches",
+    "price": 309,
+    "discount": 12,
+    "description": "Tempo Smart Watche 7 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.78-inch OLED",
+      "Sensors": "ECG, GPS, Sleep",
+      "Battery Life": "30 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Water Resistance": "5ATM"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/smart-watches/tempo-smart-watche-7-1.jpg",
+      "/products/smart-watches/tempo-smart-watche-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Tempo Smart Watche 8",
+    "brand": "TempoGear",
+    "category": "Smart Watches",
+    "price": 334,
+    "discount": 13,
+    "description": "Tempo Smart Watche 8 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.85-inch AMOLED",
+      "Sensors": "Heart rate, GPS, Compass",
+      "Battery Life": "14 days",
+      "Connectivity": "LTE optional",
+      "Water Resistance": "IP68"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/smart-watches/tempo-smart-watche-8-1.jpg",
+      "/products/smart-watches/tempo-smart-watche-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Viva Smart Watche 9",
+    "brand": "VivaTime",
+    "category": "Smart Watches",
+    "price": 344,
+    "discount": 14,
+    "description": "Viva Smart Watche 9 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.85-inch AMOLED",
+      "Sensors": "Heart rate, GPS, Compass",
+      "Battery Life": "14 days",
+      "Connectivity": "LTE optional",
+      "Water Resistance": "IP68"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/smart-watches/viva-smart-watche-9-1.jpg",
+      "/products/smart-watches/viva-smart-watche-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Viva Smart Watche 10",
+    "brand": "VivaTime",
+    "category": "Smart Watches",
+    "price": 369,
+    "discount": 15,
+    "description": "Viva Smart Watche 10 blends fitness tracking, health monitoring, and smartwatch convenience in a stylish wearable.",
+    "specifications": {
+      "Display": "1.9-inch AMOLED",
+      "Sensors": "Heart rate, SpO2, GPS",
+      "Battery Life": "18 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Water Resistance": "50m"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/smart-watches/viva-smart-watche-10-1.jpg",
+      "/products/smart-watches/viva-smart-watche-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Note Tablet 1",
+    "brand": "NoteFlex",
+    "category": "Tablets",
+    "price": 379,
+    "discount": 6,
+    "description": "Note Tablet 1 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "12.9-inch Mini-LED",
+      "Processor": "Qualcomm Snapdragon 8cx Gen 3",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Connectivity": "Wi-Fi 6E"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/tablets/note-tablet-1-1.jpg",
+      "/products/tablets/note-tablet-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Note Tablet 2",
+    "brand": "NoteFlex",
+    "category": "Tablets",
+    "price": 429,
+    "discount": 7,
+    "description": "Note Tablet 2 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "10.9-inch IPS",
+      "Processor": "MediaTek Kompanio 1380",
+      "RAM": "16GB",
+      "Storage": "512GB",
+      "Connectivity": "5G optional"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/tablets/note-tablet-2-1.jpg",
+      "/products/tablets/note-tablet-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Slate Tablet 3",
+    "brand": "SlateOne",
+    "category": "Tablets",
+    "price": 449,
+    "discount": 8,
+    "description": "Slate Tablet 3 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "10.9-inch IPS",
+      "Processor": "MediaTek Kompanio 1380",
+      "RAM": "16GB",
+      "Storage": "512GB",
+      "Connectivity": "5G optional"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/tablets/slate-tablet-3-1.jpg",
+      "/products/tablets/slate-tablet-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Slate Tablet 4",
+    "brand": "SlateOne",
+    "category": "Tablets",
+    "price": 499,
+    "discount": 9,
+    "description": "Slate Tablet 4 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "11-inch Liquid Retina",
+      "Processor": "Apple M2",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Connectivity": "Wi-Fi 6"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/tablets/slate-tablet-4-1.jpg",
+      "/products/tablets/slate-tablet-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Pro Tablet 5",
+    "brand": "ProPad",
+    "category": "Tablets",
+    "price": 519,
+    "discount": 10,
+    "description": "Pro Tablet 5 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "11-inch Liquid Retina",
+      "Processor": "Apple M2",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Connectivity": "Wi-Fi 6"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/tablets/pro-tablet-5-1.jpg",
+      "/products/tablets/pro-tablet-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Pro Tablet 6",
+    "brand": "ProPad",
+    "category": "Tablets",
+    "price": 569,
+    "discount": 11,
+    "description": "Pro Tablet 6 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "12.9-inch Mini-LED",
+      "Processor": "Qualcomm Snapdragon 8cx Gen 3",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Connectivity": "Wi-Fi 6E"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/tablets/pro-tablet-6-1.jpg",
+      "/products/tablets/pro-tablet-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Canvas Tablet 7",
+    "brand": "Canvas",
+    "category": "Tablets",
+    "price": 589,
+    "discount": 12,
+    "description": "Canvas Tablet 7 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "12.9-inch Mini-LED",
+      "Processor": "Qualcomm Snapdragon 8cx Gen 3",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Connectivity": "Wi-Fi 6E"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/tablets/canvas-tablet-7-1.jpg",
+      "/products/tablets/canvas-tablet-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Canvas Tablet 8",
+    "brand": "Canvas",
+    "category": "Tablets",
+    "price": 639,
+    "discount": 13,
+    "description": "Canvas Tablet 8 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "10.9-inch IPS",
+      "Processor": "MediaTek Kompanio 1380",
+      "RAM": "16GB",
+      "Storage": "512GB",
+      "Connectivity": "5G optional"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/tablets/canvas-tablet-8-1.jpg",
+      "/products/tablets/canvas-tablet-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Glide Tablet 9",
+    "brand": "Glide",
+    "category": "Tablets",
+    "price": 659,
+    "discount": 14,
+    "description": "Glide Tablet 9 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "10.9-inch IPS",
+      "Processor": "MediaTek Kompanio 1380",
+      "RAM": "16GB",
+      "Storage": "512GB",
+      "Connectivity": "5G optional"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/tablets/glide-tablet-9-1.jpg",
+      "/products/tablets/glide-tablet-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Glide Tablet 10",
+    "brand": "Glide",
+    "category": "Tablets",
+    "price": 709,
+    "discount": 15,
+    "description": "Glide Tablet 10 is a versatile tablet for productivity and entertainment with a responsive touchscreen and fast processor.",
+    "specifications": {
+      "Display": "11-inch Liquid Retina",
+      "Processor": "Apple M2",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Connectivity": "Wi-Fi 6"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/tablets/glide-tablet-10-1.jpg",
+      "/products/tablets/glide-tablet-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Focus Camera 1",
+    "brand": "FocusPro",
+    "category": "Cameras",
+    "price": 689,
+    "discount": 6,
+    "description": "Focus Camera 1 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "45MP full-frame",
+      "Lens": "18-55mm kit",
+      "Video": "6K 30fps",
+      "Stabilization": "Electronic",
+      "ISO Range": "50-204800"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/cameras/focus-camera-1-1.jpg",
+      "/products/cameras/focus-camera-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Focus Camera 2",
+    "brand": "FocusPro",
+    "category": "Cameras",
+    "price": 779,
+    "discount": 7,
+    "description": "Focus Camera 2 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "33MP APS-C",
+      "Lens": "24-105mm kit",
+      "Video": "1080p 120fps",
+      "Stabilization": "Dual",
+      "ISO Range": "100-102400"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/cameras/focus-camera-2-1.jpg",
+      "/products/cameras/focus-camera-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Lens Camera 3",
+    "brand": "LensCraft",
+    "category": "Cameras",
+    "price": 819,
+    "discount": 8,
+    "description": "Lens Camera 3 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "33MP APS-C",
+      "Lens": "24-105mm kit",
+      "Video": "1080p 120fps",
+      "Stabilization": "Dual",
+      "ISO Range": "100-102400"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/cameras/lens-camera-3-1.jpg",
+      "/products/cameras/lens-camera-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Lens Camera 4",
+    "brand": "LensCraft",
+    "category": "Cameras",
+    "price": 909,
+    "discount": 9,
+    "description": "Lens Camera 4 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "24MP CMOS",
+      "Lens": "24-70mm kit",
+      "Video": "4K 60fps",
+      "Stabilization": "Optical",
+      "ISO Range": "100-51200"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/cameras/lens-camera-4-1.jpg",
+      "/products/cameras/lens-camera-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Capture Camera 5",
+    "brand": "CaptureX",
+    "category": "Cameras",
+    "price": 949,
+    "discount": 10,
+    "description": "Capture Camera 5 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "24MP CMOS",
+      "Lens": "24-70mm kit",
+      "Video": "4K 60fps",
+      "Stabilization": "Optical",
+      "ISO Range": "100-51200"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/cameras/capture-camera-5-1.jpg",
+      "/products/cameras/capture-camera-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Capture Camera 6",
+    "brand": "CaptureX",
+    "category": "Cameras",
+    "price": 1039,
+    "discount": 11,
+    "description": "Capture Camera 6 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "45MP full-frame",
+      "Lens": "18-55mm kit",
+      "Video": "6K 30fps",
+      "Stabilization": "Electronic",
+      "ISO Range": "50-204800"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/cameras/capture-camera-6-1.jpg",
+      "/products/cameras/capture-camera-6-2.jpg"
+    ]
+  },
+  {
+    "name": "View Camera 7",
+    "brand": "ViewLens",
+    "category": "Cameras",
+    "price": 1079,
+    "discount": 12,
+    "description": "View Camera 7 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "45MP full-frame",
+      "Lens": "18-55mm kit",
+      "Video": "6K 30fps",
+      "Stabilization": "Electronic",
+      "ISO Range": "50-204800"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/cameras/view-camera-7-1.jpg",
+      "/products/cameras/view-camera-7-2.jpg"
+    ]
+  },
+  {
+    "name": "View Camera 8",
+    "brand": "ViewLens",
+    "category": "Cameras",
+    "price": 1169,
+    "discount": 13,
+    "description": "View Camera 8 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "33MP APS-C",
+      "Lens": "24-105mm kit",
+      "Video": "1080p 120fps",
+      "Stabilization": "Dual",
+      "ISO Range": "100-102400"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/cameras/view-camera-8-1.jpg",
+      "/products/cameras/view-camera-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Photon Camera 9",
+    "brand": "Photon",
+    "category": "Cameras",
+    "price": 1209,
+    "discount": 14,
+    "description": "Photon Camera 9 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "33MP APS-C",
+      "Lens": "24-105mm kit",
+      "Video": "1080p 120fps",
+      "Stabilization": "Dual",
+      "ISO Range": "100-102400"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/cameras/photon-camera-9-1.jpg",
+      "/products/cameras/photon-camera-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Photon Camera 10",
+    "brand": "Photon",
+    "category": "Cameras",
+    "price": 1299,
+    "discount": 15,
+    "description": "Photon Camera 10 captures stunning photos and video with precise autofocus and advanced stabilization.",
+    "specifications": {
+      "Sensor": "24MP CMOS",
+      "Lens": "24-70mm kit",
+      "Video": "4K 60fps",
+      "Stabilization": "Optical",
+      "ISO Range": "100-51200"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/cameras/photon-camera-10-1.jpg",
+      "/products/cameras/photon-camera-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Strata Gaming Accessorie 1",
+    "brand": "StrataGear",
+    "category": "Gaming Accessories",
+    "price": 79,
+    "discount": 6,
+    "description": "Strata Gaming Accessorie 1 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "Gaming mouse",
+      "Connectivity": "Wireless 2.4GHz",
+      "Special Feature": "Adjustable DPI",
+      "Compatibility": "PC/Mac",
+      "Lighting": "ARGB"
+    },
+    "rating": 3.9,
+    "stock": 55,
+    "images": [
+      "/products/gaming-accessories/strata-gaming-accessorie-1-1.jpg",
+      "/products/gaming-accessories/strata-gaming-accessorie-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Strata Gaming Accessorie 2",
+    "brand": "StrataGear",
+    "category": "Gaming Accessories",
+    "price": 99,
+    "discount": 7,
+    "description": "Strata Gaming Accessorie 2 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "RGB headset",
+      "Connectivity": "Bluetooth",
+      "Special Feature": "Surround sound",
+      "Compatibility": "Console/PC",
+      "Lighting": "Static"
+    },
+    "rating": 4.1,
+    "stock": 65,
+    "images": [
+      "/products/gaming-accessories/strata-gaming-accessorie-2-1.jpg",
+      "/products/gaming-accessories/strata-gaming-accessorie-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Pulse Gaming Accessorie 3",
+    "brand": "PulseAction",
+    "category": "Gaming Accessories",
+    "price": 104,
+    "discount": 8,
+    "description": "Pulse Gaming Accessorie 3 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "RGB headset",
+      "Connectivity": "Bluetooth",
+      "Special Feature": "Surround sound",
+      "Compatibility": "Console/PC",
+      "Lighting": "Static"
+    },
+    "rating": 4.1,
+    "stock": 75,
+    "images": [
+      "/products/gaming-accessories/pulse-gaming-accessorie-3-1.jpg",
+      "/products/gaming-accessories/pulse-gaming-accessorie-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Pulse Gaming Accessorie 4",
+    "brand": "PulseAction",
+    "category": "Gaming Accessories",
+    "price": 124,
+    "discount": 9,
+    "description": "Pulse Gaming Accessorie 4 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "Controller",
+      "Connectivity": "Wired USB-C",
+      "Special Feature": "Haptic feedback",
+      "Compatibility": "PC/PS5/Xbox",
+      "Lighting": "RGB"
+    },
+    "rating": 4.2,
+    "stock": 85,
+    "images": [
+      "/products/gaming-accessories/pulse-gaming-accessorie-4-1.jpg",
+      "/products/gaming-accessories/pulse-gaming-accessorie-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Nexu Gaming Accessorie 5",
+    "brand": "NexuPlay",
+    "category": "Gaming Accessories",
+    "price": 129,
+    "discount": 10,
+    "description": "Nexu Gaming Accessorie 5 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "Controller",
+      "Connectivity": "Wired USB-C",
+      "Special Feature": "Haptic feedback",
+      "Compatibility": "PC/PS5/Xbox",
+      "Lighting": "RGB"
+    },
+    "rating": 4.2,
+    "stock": 95,
+    "images": [
+      "/products/gaming-accessories/nexu-gaming-accessorie-5-1.jpg",
+      "/products/gaming-accessories/nexu-gaming-accessorie-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Nexu Gaming Accessorie 6",
+    "brand": "NexuPlay",
+    "category": "Gaming Accessories",
+    "price": 149,
+    "discount": 11,
+    "description": "Nexu Gaming Accessorie 6 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "Mechanical keyboard",
+      "Connectivity": "Wireless 2.4GHz",
+      "Special Feature": "Custom macros",
+      "Compatibility": "PC/Mac",
+      "Lighting": "ARGB"
+    },
+    "rating": 4.4,
+    "stock": 105,
+    "images": [
+      "/products/gaming-accessories/nexu-gaming-accessorie-6-1.jpg",
+      "/products/gaming-accessories/nexu-gaming-accessorie-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Arena Gaming Accessorie 7",
+    "brand": "ArenaTech",
+    "category": "Gaming Accessories",
+    "price": 154,
+    "discount": 12,
+    "description": "Arena Gaming Accessorie 7 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "Mechanical keyboard",
+      "Connectivity": "Wireless 2.4GHz",
+      "Special Feature": "Custom macros",
+      "Compatibility": "PC/Mac",
+      "Lighting": "ARGB"
+    },
+    "rating": 4.4,
+    "stock": 115,
+    "images": [
+      "/products/gaming-accessories/arena-gaming-accessorie-7-1.jpg",
+      "/products/gaming-accessories/arena-gaming-accessorie-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Arena Gaming Accessorie 8",
+    "brand": "ArenaTech",
+    "category": "Gaming Accessories",
+    "price": 174,
+    "discount": 13,
+    "description": "Arena Gaming Accessorie 8 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "Gaming mouse",
+      "Connectivity": "Bluetooth",
+      "Special Feature": "Adjustable DPI",
+      "Compatibility": "Console/PC",
+      "Lighting": "Static"
+    },
+    "rating": 4.5,
+    "stock": 125,
+    "images": [
+      "/products/gaming-accessories/arena-gaming-accessorie-8-1.jpg",
+      "/products/gaming-accessories/arena-gaming-accessorie-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Flux Gaming Accessorie 9",
+    "brand": "FluxPro",
+    "category": "Gaming Accessories",
+    "price": 179,
+    "discount": 14,
+    "description": "Flux Gaming Accessorie 9 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "Gaming mouse",
+      "Connectivity": "Bluetooth",
+      "Special Feature": "Adjustable DPI",
+      "Compatibility": "Console/PC",
+      "Lighting": "Static"
+    },
+    "rating": 4.5,
+    "stock": 135,
+    "images": [
+      "/products/gaming-accessories/flux-gaming-accessorie-9-1.jpg",
+      "/products/gaming-accessories/flux-gaming-accessorie-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Flux Gaming Accessorie 10",
+    "brand": "FluxPro",
+    "category": "Gaming Accessories",
+    "price": 199,
+    "discount": 15,
+    "description": "Flux Gaming Accessorie 10 elevates your gaming setup with responsive performance and customizable controls.",
+    "specifications": {
+      "Type": "RGB headset",
+      "Connectivity": "Wired USB-C",
+      "Special Feature": "Surround sound",
+      "Compatibility": "PC/PS5/Xbox",
+      "Lighting": "RGB"
+    },
+    "rating": 4.7,
+    "stock": 145,
+    "images": [
+      "/products/gaming-accessories/flux-gaming-accessorie-10-1.jpg",
+      "/products/gaming-accessories/flux-gaming-accessorie-10-2.jpg"
+    ]
+  },
+  {
+    "name": "Ethos Fashio 1",
+    "brand": "EthosWear",
+    "category": "Fashion",
+    "price": 61,
+    "discount": 6,
+    "description": "Ethos Fashio 1 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Microfiber",
+      "Style": "Formal",
+      "Fit": "Regular",
+      "Care": "Hand wash",
+      "Color": "Blue"
+    },
+    "rating": 3.9,
+    "stock": 128,
+    "images": [
+      "/products/fashion/ethos-fashio-1-1.jpg",
+      "/products/fashion/ethos-fashio-1-2.jpg"
+    ]
+  },
+  {
+    "name": "Ethos Fashio 2",
+    "brand": "EthosWear",
+    "category": "Fashion",
+    "price": 73,
+    "discount": 7,
+    "description": "Ethos Fashio 2 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Silk blend",
+      "Style": "Athleisure",
+      "Fit": "Relaxed",
+      "Care": "Dry clean",
+      "Color": "Grey"
+    },
+    "rating": 4.1,
+    "stock": 136,
+    "images": [
+      "/products/fashion/ethos-fashio-2-1.jpg",
+      "/products/fashion/ethos-fashio-2-2.jpg"
+    ]
+  },
+  {
+    "name": "Luxe Fashio 3",
+    "brand": "LuxeLine",
+    "category": "Fashion",
+    "price": 79,
+    "discount": 8,
+    "description": "Luxe Fashio 3 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Silk blend",
+      "Style": "Athleisure",
+      "Fit": "Relaxed",
+      "Care": "Dry clean",
+      "Color": "Grey"
+    },
+    "rating": 4.1,
+    "stock": 143,
+    "images": [
+      "/products/fashion/luxe-fashio-3-1.jpg",
+      "/products/fashion/luxe-fashio-3-2.jpg"
+    ]
+  },
+  {
+    "name": "Luxe Fashio 4",
+    "brand": "LuxeLine",
+    "category": "Fashion",
+    "price": 91,
+    "discount": 9,
+    "description": "Luxe Fashio 4 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Denim",
+      "Style": "Streetwear",
+      "Fit": "Slim",
+      "Care": "Machine wash",
+      "Color": "White"
+    },
+    "rating": 4.2,
+    "stock": 151,
+    "images": [
+      "/products/fashion/luxe-fashio-4-1.jpg",
+      "/products/fashion/luxe-fashio-4-2.jpg"
+    ]
+  },
+  {
+    "name": "Urban Fashio 5",
+    "brand": "UrbanWeave",
+    "category": "Fashion",
+    "price": 97,
+    "discount": 10,
+    "description": "Urban Fashio 5 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Denim",
+      "Style": "Streetwear",
+      "Fit": "Slim",
+      "Care": "Machine wash",
+      "Color": "White"
+    },
+    "rating": 4.2,
+    "stock": 158,
+    "images": [
+      "/products/fashion/urban-fashio-5-1.jpg",
+      "/products/fashion/urban-fashio-5-2.jpg"
+    ]
+  },
+  {
+    "name": "Urban Fashio 6",
+    "brand": "UrbanWeave",
+    "category": "Fashion",
+    "price": 109,
+    "discount": 11,
+    "description": "Urban Fashio 6 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Cotton blend",
+      "Style": "Casual",
+      "Fit": "Regular",
+      "Care": "Hand wash",
+      "Color": "Olive"
+    },
+    "rating": 4.4,
+    "stock": 166,
+    "images": [
+      "/products/fashion/urban-fashio-6-1.jpg",
+      "/products/fashion/urban-fashio-6-2.jpg"
+    ]
+  },
+  {
+    "name": "Silk Fashio 7",
+    "brand": "SilkRoad",
+    "category": "Fashion",
+    "price": 115,
+    "discount": 12,
+    "description": "Silk Fashio 7 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Cotton blend",
+      "Style": "Casual",
+      "Fit": "Regular",
+      "Care": "Hand wash",
+      "Color": "Olive"
+    },
+    "rating": 4.4,
+    "stock": 173,
+    "images": [
+      "/products/fashion/silk-fashio-7-1.jpg",
+      "/products/fashion/silk-fashio-7-2.jpg"
+    ]
+  },
+  {
+    "name": "Silk Fashio 8",
+    "brand": "SilkRoad",
+    "category": "Fashion",
+    "price": 127,
+    "discount": 13,
+    "description": "Silk Fashio 8 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Microfiber",
+      "Style": "Formal",
+      "Fit": "Relaxed",
+      "Care": "Dry clean",
+      "Color": "Black"
+    },
+    "rating": 4.5,
+    "stock": 181,
+    "images": [
+      "/products/fashion/silk-fashio-8-1.jpg",
+      "/products/fashion/silk-fashio-8-2.jpg"
+    ]
+  },
+  {
+    "name": "Metro Fashio 9",
+    "brand": "MetroTone",
+    "category": "Fashion",
+    "price": 133,
+    "discount": 14,
+    "description": "Metro Fashio 9 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Microfiber",
+      "Style": "Formal",
+      "Fit": "Relaxed",
+      "Care": "Dry clean",
+      "Color": "Black"
+    },
+    "rating": 4.5,
+    "stock": 188,
+    "images": [
+      "/products/fashion/metro-fashio-9-1.jpg",
+      "/products/fashion/metro-fashio-9-2.jpg"
+    ]
+  },
+  {
+    "name": "Metro Fashio 10",
+    "brand": "MetroTone",
+    "category": "Fashion",
+    "price": 145,
+    "discount": 15,
+    "description": "Metro Fashio 10 offers premium fabric, refined tailoring, and comfortable everyday wear for trend-conscious customers.",
+    "specifications": {
+      "Fabric": "Silk blend",
+      "Style": "Athleisure",
+      "Fit": "Slim",
+      "Care": "Machine wash",
+      "Color": "Blue"
+    },
+    "rating": 4.7,
+    "stock": 196,
+    "images": [
+      "/products/fashion/metro-fashio-10-1.jpg",
+      "/products/fashion/metro-fashio-10-2.jpg"
+    ]
+  }
+]
