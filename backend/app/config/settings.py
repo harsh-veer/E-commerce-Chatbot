@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 60
 
     # CORS
-    cors_origins: list[str] = [
+    cors_origins: Union[list[str], str] = [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
     ]
@@ -28,9 +28,14 @@ class Settings(BaseSettings):
     @classmethod
     def assemble_cors_origins(cls, v: Union[str, list[str]]) -> list[str]:
         if isinstance(v, str):
+            if v.strip() == "*":
+                return ["*"]
             if v.startswith("[") and v.endswith("]"):
-                import json
-                return json.loads(v)
+                try:
+                    import json
+                    return json.loads(v)
+                except Exception:
+                    pass
             return [i.strip() for i in v.split(",") if i.strip()]
         return v
 
