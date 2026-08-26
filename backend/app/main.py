@@ -16,6 +16,7 @@ from app.services.seed_products import seed_products_if_empty
 from app.services.seed_users import seed_admin_user
 
 logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="AI-Powered E-commerce Product Q&A Bot",
