@@ -1,11 +1,11 @@
 from datetime import datetime
 from typing import Any
 
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, ConfigDict, EmailStr, Field
 
 
 class User(BaseModel):
-    id: str | None = Field(alias="_id")
+    id: str | None = Field(default=None, alias="_id")
     first_name: str
     last_name: str
     email: EmailStr
@@ -14,6 +14,4 @@ class User(BaseModel):
     created_at: datetime = Field(default_factory=datetime.utcnow)
     updated_at: datetime = Field(default_factory=datetime.utcnow)
 
-    class Config:
-        allow_population_by_field_name = True
-        json_encoders = {"_id": str}
+    model_config = ConfigDict(populate_by_name=True)

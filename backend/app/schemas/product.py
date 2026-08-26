@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class ProductCreate(BaseModel):
@@ -17,16 +17,6 @@ class ProductCreate(BaseModel):
 
 
 class ProductUpdate(BaseModel):
-    name: str | None = None
-    brand: str | None = None
-    category: str | None = None
-    price: float | None = None
-    discount: float | None = None
-    description: str | None = None
-    specifications: dict[str, str] | None = None
-    rating: float | None = None
-    stock: int | None = None
-    images: list[str] | None = None
     name: str | None = None
     brand: str | None = None
     category: str | None = None
@@ -54,6 +44,5 @@ class ProductResponse(BaseModel):
     created_at: datetime | None = None
     updated_at: datetime | None = None
 
-    class Config:
-        populate_by_name = True
-        allow_population_by_field_name = True
+    model_config = ConfigDict(populate_by_name=True)
+
