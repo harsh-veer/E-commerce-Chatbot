@@ -52,6 +52,17 @@ async def startup_event() -> None:
         logger.warning(f"RAG index initialization warning: {e}")
 
 
+@app.get("/")
+def root():
+    return {
+        "name": "E-commerce Chatbot Backend API",
+        "status": "online",
+        "docs": "/docs",
+        "health": "/health",
+        "api_endpoints": "/api",
+    }
+
+
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
