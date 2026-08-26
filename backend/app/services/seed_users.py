@@ -1,14 +1,14 @@
 from datetime import datetime
 
-from passlib.context import CryptContext
+import bcrypt
 
 from app.database.client import db
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
 
 def hash_password(password: str) -> str:
-    return pwd_context.hash(password)
+    pwd_bytes = password[:72].encode("utf-8")
+    salt = bcrypt.gensalt()
+    return bcrypt.hashpw(pwd_bytes, salt).decode("utf-8")
 
 
 async def seed_admin_user() -> None:
