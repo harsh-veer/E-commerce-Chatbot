@@ -1,4 +1,10 @@
+import sys
 import logging
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -14,6 +20,7 @@ app = FastAPI(
     title="AI-Powered E-commerce Product Q&A Bot",
     description="Backend API for e-commerce RAG chatbot with product management and authentication.",
     version="0.1.0",
+    redirect_slashes=False,
 )
 
 app.add_middleware(

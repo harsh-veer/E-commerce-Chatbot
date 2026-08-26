@@ -18,6 +18,16 @@ frontend/.next/
 # FAISS
 backend/faiss_index/
 
+# Build & Egg Info
+*.egg-info/
+backend/*.egg-info/
+dist/
+build/
+
+# Temporary / Scratch scripts
+backend/scratch_*.py
+backend/temp_*.py
+
 # Logs
 *.log
 

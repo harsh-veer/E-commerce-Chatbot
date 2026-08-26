@@ -45,14 +45,15 @@ class ProductResponse(BaseModel):
     brand: str
     category: str
     price: float
-    discount: float
+    discount: float = 0.0
     description: str
-    specifications: dict[str, str]
-    rating: float
-    stock: int
-    images: list[str]
-    created_at: datetime
-    updated_at: datetime
+    specifications: dict[str, str] = Field(default_factory=dict)
+    rating: float = 0.0
+    stock: int = 0
+    images: list[str] = Field(default_factory=list)
+    created_at: datetime | None = None
+    updated_at: datetime | None = None
 
     class Config:
+        populate_by_name = True
         allow_population_by_field_name = True

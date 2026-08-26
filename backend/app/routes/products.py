@@ -16,10 +16,19 @@ def validate_object_id(id: str) -> ObjectId:
     return ObjectId(id)
 
 
+def format_product(product: dict) -> dict:
+    if product:
+        product["_id"] = str(product["_id"])
+        product["created_at"] = product.get("created_at") or datetime.utcnow()
+        product["updated_at"] = product.get("updated_at") or datetime.utcnow()
+    return product
+
+
 @router.get("/", response_model=list[ProductResponse])
+@router.get("", response_model=list[ProductResponse])
 async def list_products():
     products = await db.products.find().to_list(100)
-    return [ProductResponse.model_validate(product) for product in products]
+    return [ProductResponse.model_validate(format_product(product)) for product in products]
 
 
 @router.get("/{product_id}", response_model=ProductResponse)
@@ -27,7 +36,7 @@ async def get_product(product_id: str):
     product = await db.products.find_one({"_id": validate_object_id(product_id)})
     if not product:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Product not found")
-    return ProductResponse.model_validate(product)
+    return ProductResponse.model_validate(format_product(product))
 
 
 @router.post("/", response_model=ProductResponse, status_code=status.HTTP_201_CREATED)
