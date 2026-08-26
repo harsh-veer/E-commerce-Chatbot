@@ -36,8 +36,17 @@ app.include_router(api_router, prefix="/api")
 
 @app.on_event("startup")
 async def startup_event() -> None:
-    await seed_admin_user()
-    await build_rag_index()
+    try:
+        logger.info("Connecting to MongoDB and checking admin user...")
+        await seed_admin_user()
+    except Exception as e:
+        logger.warning(f"Database connection warning during admin seeding: {e}. Please ensure MONGO_URI is set to your cloud MongoDB instance.")
+
+    try:
+        logger.info("Initializing RAG index...")
+        await build_rag_index()
+    except Exception as e:
+        logger.warning(f"RAG index initialization warning: {e}")
 
 
 @app.get("/health")
