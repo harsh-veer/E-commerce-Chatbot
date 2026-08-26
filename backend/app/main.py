@@ -12,6 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.config.settings import settings
 from app.routes import api_router
 from app.rag.pipeline import build_faiss as build_rag_index
+from app.services.seed_products import seed_products_if_empty
 from app.services.seed_users import seed_admin_user
 
 logging.basicConfig(level=logging.INFO)
@@ -37,10 +38,11 @@ app.include_router(api_router, prefix="/api")
 @app.on_event("startup")
 async def startup_event() -> None:
     try:
-        logger.info("Connecting to MongoDB and checking admin user...")
+        logger.info("Connecting to MongoDB and checking initial data...")
         await seed_admin_user()
+        await seed_products_if_empty()
     except Exception as e:
-        logger.warning(f"Database connection warning during admin seeding: {e}. Please ensure MONGO_URI is set to your cloud MongoDB instance.")
+        logger.warning(f"Database connection warning during initial seeding: {e}. Please ensure MONGO_URI is set to your cloud MongoDB instance.")
 
     try:
         logger.info("Initializing RAG index...")
