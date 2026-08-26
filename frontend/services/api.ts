@@ -1,8 +1,11 @@
 import axios from "axios"
 import { Product, ChatMessage } from "@/types"
 
+const rawBaseUrl = (process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000/api").trim().replace(/\/+$/, "")
+export const API_BASE_URL = rawBaseUrl.endsWith("/api") ? rawBaseUrl : `${rawBaseUrl}/api`
+
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000/api",
+  baseURL: API_BASE_URL,
   headers: {
     "Content-Type": "application/json",
   },
@@ -49,8 +52,7 @@ export const sendChatQuestionStream = async (
   question: string,
   onChunk: (chunk: string) => void
 ): Promise<void> => {
-  const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000/api"
-  const response = await fetch(`${baseUrl}/chat/stream`, {
+  const response = await fetch(`${API_BASE_URL}/chat/stream`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -116,5 +118,3 @@ export const clearChatHistory = async (): Promise<void> => {
 }
 
 export default api
-
-
