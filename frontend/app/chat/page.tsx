@@ -10,7 +10,7 @@ import MarkdownRenderer from "@/components/MarkdownRenderer"
 
 const quickPrompts = [
   "Which laptops have 16GB RAM and long battery life?",
-  "What smartwatches have fitness tracking under $300?",
+  "What smartwatches have fitness tracking under ₹25,000?",
   "Compare noise canceling wireless headphones.",
   "Tell me about return policy and product warranty.",
 ]

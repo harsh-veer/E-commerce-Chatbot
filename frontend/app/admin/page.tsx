@@ -51,7 +51,7 @@ export default function AdminPage() {
       name: "",
       brand: "",
       category: "Electronics",
-      price: 99.99,
+      price: 29999,
       discount: 0,
       rating: 4.5,
       stock: 25,
@@ -219,10 +219,10 @@ export default function AdminPage() {
                     />
                   </div>
                   <div>
-                    <label className="block text-xs font-semibold text-slate-300 mb-1">Price ($)</label>
+                    <label className="block text-xs font-semibold text-slate-300 mb-1">Price (₹)</label>
                     <input
                       type="number"
-                      step="0.01"
+                      step="1"
                       required
                       value={formData.price}
                       onChange={(e) => setFormData({ ...formData, price: Number(e.target.value) })}
@@ -323,7 +323,7 @@ export default function AdminPage() {
                           {p.category}
                         </span>
                       </td>
-                      <td className="px-6 py-4 font-semibold text-white">${p.price}</td>
+                      <td className="px-6 py-4 font-semibold text-white">₹{p.price?.toLocaleString("en-IN")}</td>
                       <td className="px-6 py-4">
                         {p.stock > 0 ? (
                           <span className="text-xs text-emerald-400 font-medium">In Stock ({p.stock})</span>

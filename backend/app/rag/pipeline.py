@@ -2,8 +2,20 @@ import json
 import logging
 import os
 import re
+import sys
 from datetime import datetime
 from typing import Any
+
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+if hasattr(sys.stderr, "reconfigure"):
+    try:
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 import faiss
 import numpy as np
@@ -117,6 +129,8 @@ def build_documents(products):
         category = product.get("category", "")
         network_tag = "Network: 5G / LTE Supported\n" if category.lower() in ["mobiles", "phones", "cellphones", "smartphones"] else ""
 
+        price_val = float(product.get("price", 0))
+        price_display = f"₹{int(price_val):,}" if price_val > 0 else "₹0"
         docs.append(
             {
                 "id": str(product["_id"]),
@@ -124,13 +138,13 @@ def build_documents(products):
                 "brand": product["brand"],
                 "category": product["category"],
                 "rating": float(product.get("rating", 0)),
-                "price": float(product.get("price", 0)),
+                "price": price_val,
                 "stock": product.get("stock", 0),
                 "content": f"""
 Product : {product['name']}
 Brand : {product['brand']}
 Category : {product['category']}
-Price : ${product.get('price', 0)}
+Price : {price_display}
 Discount : {product.get('discount', 0)}%
 Rating : {product.get('rating', 0)}
 Stock : {product.get('stock', 0)}
@@ -310,10 +324,11 @@ async def retrieve_documents(question: str):
                 docs = candidates_to_sort[:6]
 
     if docs:
-        print("\n========== RETRIEVED PRODUCTS ==========")
+        logger.info(f"Retrieved {len(docs)} matching products from catalog.")
         for doc in docs:
-            print(f"{doc['name']} | Rating: {doc.get('rating')} | Price: ${doc.get('price')}")
-        print("========================================")
+            p_val = doc.get("price", 0)
+            p_str = f"₹{int(p_val):,}" if isinstance(p_val, (int, float)) and p_val > 0 else f"₹{p_val}"
+            logger.info(f"- {doc['name']} | Rating: {doc.get('rating')} | Price: {p_str}")
         return docs
 
     logger.info("Using keyword fallback retrieval...")
@@ -330,9 +345,12 @@ def build_prompt(question: str, docs: list[dict] = None) -> str:
     if docs:
         context_lines = []
         for doc in docs:
-            price_usd = float(doc.get("price", 0))
-            price_inr = int(price_usd * 83) if price_usd > 0 else 0
-            price_str = f"₹{price_inr:,}" if price_inr > 0 else "N/A"
+            raw_price = doc.get("price", 0)
+            try:
+                price_num = float(raw_price)
+                price_str = f"₹{int(price_num):,}" if price_num > 0 else "N/A"
+            except (ValueError, TypeError):
+                price_str = f"₹{raw_price}"
             context_lines.append(
                 f"- Product: {doc.get('name')} | Brand: {doc.get('brand')} | Category: {doc.get('category')} | Price: {price_str} | Rating: ⭐{doc.get('rating')} | Stock: {doc.get('stock')}\n  Details: {doc.get('content', '').strip()}"
             )
@@ -344,8 +362,8 @@ User Question: {question}
 {catalog_context}
 Instructions:
 1. Provide the newest, most up-to-date, and accurate real-world product recommendations, specifications, features, price comparisons, or buying advice available for {current_year}.
-2. If store catalog products are listed in the context above, seamlessly integrate relevant items into your answer, citing their specs, exact price, and current stock status.
-3. ALWAYS state all product prices, price ranges, and estimated costs in Indian Rupees (INR / ₹) instead of US Dollars ($) or other currencies.
+2. If store catalog products are listed in the context above, seamlessly integrate relevant items into your answer, citing their specs, exact price, and current stock status. NOTE: Store catalog prices are ALREADY in Indian Rupees (INR / ₹) — use the EXACT price as given in the context and do NOT multiply, convert, or inflate it.
+3. ALWAYS state all product prices, price ranges, and estimated costs in Indian Rupees (INR / ₹, e.g., ₹3,49,900 or ₹1,44,900) instead of US Dollars ($) or other currencies.
 4. Focus strictly on the latest, top-recommended real-world products (e.g. smartphones, laptops, smartwatches, headphones, gaming gear, electronics).
 5. Structure the response clearly using clean Markdown bullet points, bold product titles, key specifications, and concise section headers.
 
@@ -412,7 +430,11 @@ def context_response(docs):
     for doc in docs:
         text = doc["content"]
         name = doc.get("name", "")
-        price = doc.get("price", "")
+        price = doc.get("price", 0)
+        try:
+            price_display = f"₹{int(float(price)):,}"
+        except Exception:
+            price_display = f"₹{price}"
         rating = doc.get("rating", "")
         stock = ""
         description = ""
@@ -425,7 +447,7 @@ def context_response(docs):
 
         lines.append(
             f"### **{name}**\n"
-            f"* **Price:** ${price} | **Rating:** ⭐ {rating} | **Stock:** {stock}\n"
+            f"* **Price:** {price_display} | **Rating:** ⭐ {rating} | **Stock:** {stock}\n"
             f"* **Details:** {description}\n"
         )
     return "\n".join(lines)
